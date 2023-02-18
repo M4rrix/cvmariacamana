@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>CV Maria Camana</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'> <!--el meta viewport es para que el tamano de la pagina se adapate a otras dimenciones.-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/eda6ef960b.js" crossorigin="anonymous"></script>
+</head>
+<body onload="myFunction()">
+
+
+ 
+    <div class="contenedor">
+       
+        <div class="imagen">
+            <img src="foto/fotocv.jpeg.jpeg" alt="fotocv" title="foto cv" width="200px" height="200px" class="imagen__img">
+        </div>
+       
+        <div class="contenedor1">
+            <h1 class="contenedor1__h1" id="h1" onmouseover="mouseOver" onmouseout="mouseOut">Hola! Soy María</h1>
+            <p class="contenedor1__p">Estudio desarrollo front-end</p>
+        </div>
+
+    </div>
+
+    <nav class="nav">
+
+        <ol class="nav__ol">
+            <li class="li"><a href="#about">Sobre mí</a></li>
+            <li class="li"><a href="#estudios">Estudios</a></li>
+            <li class="li"><a href="#habilidades">Habilidades</a></li>
+            <li class="li"><a href="#proyectos">Proyectos</a></li>
+            <li class="li"><a href="#contacto">Contacto</a></li>
+        </ol>
+
+    </nav>
+
+    <main class="main">
+
+        <div class="div1">
+
+            <h2 class="div1__h2" id="about">Sobre mí</h2>
+            <p class="div1__p">
+                Mi nombre es María Camaña<br>
+                Nací el 29 de Octubre de 1998 en Provincia de Rio Negro, Republica Argentina.<br>
+                Actualmente resido en Buenos Aires. <br>
+                Me encuentro buscando mi primer trabajo IT en el cual pueda seguir estudiando y <br>
+                profesionalizandome en la parte de front-end, y en un futuro en back-end. <br>
+                Cuento con disponibilidad horaria y voluntad para desarrollarme en otras tecnologías.
+            </p>
+
+            <hr class="hr3">
+
+            <h2 class="estudios" id="estudios">Estudios</h2>
+            <p>
+                Centro educativo de nivel secundario nro 8. <br>
+                2016 <br><br>
+                
+                Comienzo de estudio de desarrollo front-end - Modalidad autodidacta. <br>
+                08/2022 <br><br>
+                
+                Ticmas Academy - Programación Front end. <br>
+                12/2022 
+                
+            
+            </p>
+
+            <hr class="hr3">
+
+            <h2 class="habilidades" id="habilidades">Habilidades</h2>
+            <p>
+                <br>
+                <ul>
+                    <li class="ulHabilidades">Html</li>
+                    <li class="ulHabilidades">Css</li>
+                    <li class="ulHabilidades">Javascript en desarrollo</li>
+                    <li class="ulHabilidades">Git</li>
+                </ul>
+            </p>
+
+        </div>
+
+        <hr class="hr3">
+
+        <div class="experience">
+
+            <h2 class="experience__h2" id="proyectos">Proyectos</h2>
+            <p class="experience__p"><a href="file:///C:/Users/Mari/Desktop/poe/index.html" target="_blank">Proyecto poesía</a></p>
+
+        </div>
+
+        <hr class="hr3">
+
+        <div id="contacto">
+
+            <ul class="datosPersonales">
+                <li class="datosPersonales__whatsapp"><button type="button" id="boton-whatsapp"><i class="fa-brands fa-whatsapp"></i></button></li>
+                <li class="datosPersonales__email"><button type="button" id="boton-email"><i class="fa-regular fa-envelope"></i></button></li>
+                <li class="datosPersonales__direccion"><button type="button" id="boton-direccion"><i class="fa-solid fa-location-arrow"></i></button></li>
+            </ul>
+            <p id="demo"></p>
+
+        </div>
+
+    </main>
+ 
+    <script src="js/function.js"></script>
+   
+</body>
+</html>
